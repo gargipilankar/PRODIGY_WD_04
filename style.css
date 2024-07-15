@@ -193,26 +193,7 @@ span{
     }
 }
 @keyframes words{
-    /* 0%,
-    20%{
-        content: "frontend desiger";
-    }
-    21%,
-    40%{
-        content: "web designer";
-    }
-    41%,
-    60%{
-        content: "ui / ux designer";
-    }
-    61%, 
-    80%{
-        content: "Full Stack Developer";
-    } */
-    /* 81%,
-    100%{
-        content: "Full Stack Developer";
-    } */
+    
 }
 @keyframes typing{
     10%,
@@ -279,21 +260,12 @@ span{
     text-align: right;
 }
 
-/* .timeline-item:nth-child(odd){
-    padding-left: calc(50% + 30px);
-    text-align: right;
-    left: 0;
-} */
 
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
 }
 
-/* .timeline-item:nth-child(even){
-    padding-left: calc(50% + 30px);
-    text-align: left;
-    right: 50%;
-} */
+
 .timeline-dot{
     height: 21px;
     width: 21px;
@@ -305,12 +277,7 @@ span{
     border-radius: 50%;
     top: 10px;
 }
-/* .timeline-date{
-    font-size: 20px;
-    font-weight: 800;
-    color: white;
-    margin: 6px 0 15px;
-} */
+
 .timeline-content{
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
